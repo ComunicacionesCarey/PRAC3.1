@@ -1,0 +1,13 @@
+.agenda{background-color:#C3DDEC;}
+.san-pedro{background-color:#c3c2ce;}
+.cumbres-hotel{background-color:#d6a97a;}
+.landscape{background-color:#b7dedb;}
+
+.agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:18px 0px 18px 28px;color:#000;}
+
+#agenda table th,td{text-align:left;padding:10px 0px;}
+#san-pedro table td{text-align:left;padding:0px 35px 0px 0px;}
+#cumbres-hotel table{margin:0px 0px 18px 28px;}
+#cumbres-hotel table td{text-align:left;padding:0px 35px 0px 0px;}
+#landscape table td{text-align:left;padding:0px 20px 0px 0px;}
+#landscape table td h1{margin:0px; font-size:24px;}
