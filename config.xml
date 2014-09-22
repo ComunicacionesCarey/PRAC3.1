@@ -10,9 +10,8 @@
 
 <author href="http://www.carey.cl" email="gsalazar@carey.cl">Your Name</author>
 
-<gap:platform name="android" />
 <gap:platform name="ios" />
+<gap:plugin name="org.apache.cordova.inappbrowser" />
 <preference name="orientation" value="landscape" />
-<access origin="*" browserOnly="true" /> 
 
 </widget>
