@@ -1,15 +1,16 @@
 .bgindex{background:url('../img/bg.jpg') no-repeat;}
-.bgindex .navbar{display:none;}
+.navbar {background:none;border-bottom:0px solid #c4c4c4;}
 .content-block-title{text-align:center;margin:35px 15px 150px;}
 .pages, .page{background:none;}
+.list-block {float:left;width:100%;}
 .list-block ul{background:none;border:0px solid;margin:0px auto;width:600px;}
 .list-block li{width:300px;float: left;}
-
 .list-block .item-link{margin: 10px;}
 .btnagenda{background:url('../img/btn-agenda.png') no-repeat;height:104px;}
 .btnsanpedro{background:url('../img/btn-sanpedro.png') no-repeat;height:104px;}
 .btnhotel{background:url('../img/btn-hotel.png') no-repeat;height:104px;}
 .btnweather{background:url('../img/btn-weather.png') no-repeat;height:104px;}
+.footer-home{width:100%;text-align:center;margin-top:210px;float:left;}
 
 .agenda{background-color:#C3DDEC;}
 .san-pedro{background-color:#c3c2ce;}
