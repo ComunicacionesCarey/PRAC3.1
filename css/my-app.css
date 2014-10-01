@@ -3,16 +3,21 @@
 .content-block-title{text-align:center;margin:35px 15px 150px;}
 .pages, .page{background:none;}
 .list-block {float:left;width:100%;}
-.list-block ul{background:none;border:0px solid;margin:0px auto;width:600px;}
-.list-block li{width:300px;float: left;}
+.list-block ul{background:none;border:0px solid;margin:0px auto;width:532px;}
+.list-block li{width:266px;float: left;}
 .list-block .item-link{margin: 10px;}
-.btnagenda{background:url('../img/btn-agenda.png') no-repeat;height:104px;}
-.btnsanpedro{background:url('../img/btn-sanpedro.png') no-repeat;height:104px;}
-.btnhotel{background:url('../img/btn-hotel.png') no-repeat;height:104px;}
-.btnweather{background:url('../img/btn-weather.png') no-repeat;height:104px;}
+.btnagenda{background:url('../img/btn-agenda.svg') no-repeat;height:92px;}
+.btnsanpedro{background:url('../img/btn-sanpedro.svg') no-repeat;height:92px;}
+.btnhotel{background:url('../img/btn-hotel.svg') no-repeat;height:92px;}
+.btnweather{background:url('../img/btn-weather.svg') no-repeat;height:92px;}
 .footer-home{width:100%;text-align:center;margin-top:210px;float:left;}
 
+.navbar-inner, .toolbar-inner{padding:0 32px;}
+
 .agenda{background-color:#C3DDEC;}
+.coloragenda{background-color:#7E9BB0;}
+#btnsaturday{display:block; cursor:pointer;}
+
 .san-pedro{background-color:#c3c2ce;}
 .cumbres-hotel{background-color:#d6a97a;}
 .landscape{background-color:#b7dedb;}
