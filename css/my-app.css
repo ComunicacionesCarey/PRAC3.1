@@ -3,7 +3,7 @@
 .content-block-title{text-align:center;margin:35px 15px 150px;}
 .pages, .page{background:none;}
 .list-block {float:left;width:100%;}
-.list-block ul{background:none;border:0px solid;margin:0px auto;width:532px;}
+.list-block ul{width:532px;}
 .list-block li{width:266px;float: left;}
 .list-block .item-link{margin: 10px;}
 .btnagenda{background:url('../img/btn-agenda.svg') no-repeat;height:92px;}
