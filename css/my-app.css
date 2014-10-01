@@ -13,18 +13,24 @@
 .footer-home{width:100%;text-align:center;margin-top:210px;float:left;}
 
 .navbar-inner, .toolbar-inner{padding:0 32px;}
+.footer{position:fixed;bottom:0px;}
 
-.agenda{background-color:#C3DDEC;}
+#agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:18px 0px 18px 28px;color:#000;}
+
 .coloragenda{background-color:#7E9BB0;}
-#btnsaturday{display:block; cursor:pointer;}
+#agenda{background-color:#C3DDEC;}
+#agenda .tabs .tab.active {display: block;height:590px;overflow-y:auto;}
+#agenda .tabs table th,td{text-align:left;padding-top:10px;}
+#agenda .puntos{color:#7E9BB0;font-size:35px;line-height:4px;}
+
 
 .san-pedro{background-color:#c3c2ce;}
 .cumbres-hotel{background-color:#d6a97a;}
 .landscape{background-color:#b7dedb;}
 
-.agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:18px 0px 18px 28px;color:#000;}
 
-#agenda table th,td{text-align:left;padding:10px 0px;}
+
+
 #san-pedro table td{text-align:left;padding:0px 35px 0px 0px;}
 #cumbres-hotel table{margin:0px 0px 18px 28px;}
 #cumbres-hotel table td{text-align:left;padding:0px 35px 0px 0px;}
