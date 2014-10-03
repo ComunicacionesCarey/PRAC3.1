@@ -1,6 +1,6 @@
 .bgindex{background:url('../img/bg.jpg') no-repeat;}
 .navbar {background:none;}
-.content-block-inner{overflow-y:auto;overflow-x:hidden; height:685px;}
+.tabs{overflow-y:auto;overflow-x:hidden;height:602px;margin-top:15px;}
 .content-block-title{text-align:center;margin:35px 15px 150px;}
 .pages, .page{background:none;}
 .list-block {float:left;width:100%;}
@@ -17,7 +17,7 @@
 .navbar-inner, .toolbar-inner{padding:0 32px;}
 .footer{position:fixed;bottom:0px;}
 
-#agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:18px 0px 18px 28px;color:#000;}
+#agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:0px 0px 18px 28px;color:#000;}
 
 .coloragenda{background-color:#7E9BB0;}
 #agenda{background-color:#C3DDEC;}
@@ -31,7 +31,6 @@
 .san-pedro{background-color:#c3c2ce;}
 .cumbres-hotel{background-color:#d6a97a;}
 .landscape{background-color:#b7dedb;}
-
 
 #san-pedro table td{text-align:left;padding:0px 35px 0px 0px;}
 #cumbres-hotel table{margin:0px 0px 18px 28px;}
