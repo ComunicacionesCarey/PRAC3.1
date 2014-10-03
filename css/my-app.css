@@ -1,7 +1,9 @@
 .bgindex{background:url('../img/bg.jpg') no-repeat;}
 .navbar {background:none;}
-.tabs{overflow-y:auto;overflow-x:hidden;height:602px;margin-top:15px;}
+
 .content-block-title{text-align:center;margin:35px 15px 150px;}
+.content-block-inner{padding-top:20px;}
+
 .pages, .page{background:none;}
 .list-block {float:left;width:100%;}
 .list-block ul{width:532px;}
@@ -16,6 +18,10 @@
 .back{color:#FFF;}
 .navbar-inner, .toolbar-inner{padding:0 32px;}
 .footer{position:fixed;bottom:0px;}
+
+.tabs{overflow-y:auto;overflow-x:hidden;height:620px;margin-top:15px;}
+#san-pedro{overflow-y:auto;overflow-x:hidden;height:666px;}
+#cumbres-hotel{overflow-y:auto;overflow-x:hidden;height:665px;}
 
 #agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:0px 0px 18px 28px;color:#000;}
 
@@ -37,3 +43,14 @@
 #cumbres-hotel table td{text-align:left;padding:0px 35px 0px 0px;}
 #landscape table td{text-align:left;padding:0px 20px 0px 0px;}
 #landscape table td h1{margin:0px; font-size:24px;}
+
+.custom-accordion {padding-left:0;padding-right:0;}
+.custom-accordion .accordion-item-toggle {padding:0px;height:auto;cursor:pointer;}
+.custom-accordion .accordion-item-toggle:active {/*background: rgba(0,0,0,0.15);*/}
+.custom-accordion .accordion-item-toggle span {display:inline-block;margin-left:15px;}
+.custom-accordion .accordion-item:last-child .accordion-item-toggle {border-bottom:none;}
+.custom-accordion .icon-plus, .custom-accordion .icon-minus {display:inline-block;width:22px;height:22px;border:1px solid #000;border-radius:100%;line-height:20px;text-align:center;}
+.custom-accordion .icon-minus {display:none;}
+.custom-accordion .accordion-item-expanded .icon-minus {display:inline-block;}
+.custom-accordion .accordion-item-expanded .icon-plus {display:none;}
+.custom-accordion .accordion-item-content {padding:0px;}
