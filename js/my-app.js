@@ -18,6 +18,11 @@ myApp.onPageInit('about', function (page) {
     });
 });
 
+$$('.label-switch').on('click', function () {
+    $$('#far').css('display', 'none');
+    $$('#cel').css('display', 'block');
+});
+
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
@@ -46,3 +51,6 @@ function createContentPage() {
     );
 	return;
 }
+
+
+
