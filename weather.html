@@ -14,39 +14,16 @@
 	  <img src="img/tit-weather.svg" />
       <div class="content-block">
         <div class="content-block-inner" id="landscape">
-
-    <ul style="list-style:none;padding:0;margin:0;">
-    <!-- Switch (Checkbox) -->
-    <li>
-      <div class="item-content">
-        <div class="item-media"><i class="icon icon-form-toggle"></i></div>
-        <div class="item-inner">
-
-<!-- 
-          <div class="item-input">
-		  C°
-            <label class="label-switch">
-              <input type="checkbox" id="checkbox">
-              <div class="checkbox"></div>
-            </label>
-          F°
-          </div>
--->
-
+        
+        <div id="far" style="display:block;"><iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=-22.910501&lon=-68.198770&name=San Pedro de Atacama (fahrenheit)&units=us"> </iframe></div>
+        
+        <div id="cel" style="display:none;"><iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=-22.910501&lon=-68.198770&name=San Pedro de Atacama (celsius)&units=uk"> </iframe></div>
+        
+        <div style="width:98%; text-align:right;">
+        <a href="#" id="changeC" onclick="document.getElementById('far').style.display = 'none';document.getElementById('cel').style.display = 'block';document.getElementById('changeC').style.display = 'none';document.getElementById('changeF').style.display = 'block';">Change to Celsius</a>
+        
+        <a href="#" style="display:none;" id="changeF" onclick="document.getElementById('far').style.display = 'block';document.getElementById('cel').style.display = 'none';document.getElementById('changeC').style.display = 'block';document.getElementById('changeF').style.display = 'none';">Change to Fahrenheit</a>
         </div>
-      </div>
-    </li>
-    </ul>
-    
-    <div id="far" style="display:block;">
-            <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=-22.910501&lon=-68.198770&name=San Pedro de Atacama (fahrenheit)&units=us"> </iframe>
-    </div>
-    <br />
-<br />
-    <div id="cel" style="display:block;">
-            <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=-22.910501&lon=-68.198770&name=San Pedro de Atacama (celsius)&units=uk"> </iframe>
-    </div>
-    
              
         </div>
       </div>
