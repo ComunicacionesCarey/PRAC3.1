@@ -23,7 +23,7 @@
 #san-pedro{overflow-y:auto;overflow-x:hidden;height:666px;}
 #cumbres-hotel{overflow-y:auto;overflow-x:hidden;height:665px;}
 
-#agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:97%;margin:0px 0px 18px 28px;color:#000;}
+#agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:100%;margin:0px 0px 18px 0px;color:#000;}
 
 .coloragenda{background-color:#7E9BB0;}
 #agenda{background-color:#C3DDEC;}
