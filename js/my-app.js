@@ -10,6 +10,17 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: true
 });
 
+/*=== Standalone Dark ===*/
+var myPhotoBrowserDark = myApp.photoBrowser({
+    photos : [
+        'http://lorempixel.com/1024/1024/sports/1/',
+    ],
+    theme: 'dark'
+});
+$$('.pb-standalone-dark').on('click', function () {
+    myPhotoBrowserDark.open();
+});
+
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
@@ -38,9 +49,3 @@ function createContentPage() {
     );
 	return;
 }
-
-
-
-$$('.algo').on('click', function (e) {
-    $$(this).addClass('hello').attr('title', 'world').insertAfter('.something-else');
-});
