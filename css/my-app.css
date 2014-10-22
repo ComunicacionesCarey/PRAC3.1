@@ -16,7 +16,7 @@
 .btnweather{background:url('../img/btn-weather.svg') no-repeat;height:92px;}
 .btnchile{background:url('../img/btn-chile.svg') no-repeat;height:92px;}
 .btndelegate{background:url('../img/btn-delegate.svg') no-repeat;height:92px;}
-.footer-home{width:100%;text-align:center;margin-top:60px;float:left;}
+.footer-home{width:100%;text-align:center;margin-top:120px;float:left;}
 
 .back{color:#FFF;background:url('../img/back-01.svg') no-repeat;width:80px;margin-top:32px;}
 .navbar-inner, .toolbar-inner{padding:0 32px;}
@@ -44,12 +44,13 @@
 .cumbres-hotel{background-color:#d6a97a;}
 .landscape{background-color:#b7dedb;}
 
-#san-pedro table td{text-align:left;padding:0px 35px 0px 0px;}
+#san-pedro h2{display:inline;margin:0px 5px 0px 0px;}
 #cumbres-hotel table{margin:0px 0px 18px 28px;}
 #cumbres-hotel table td{text-align:left;padding:0px 35px 0px 0px;}
 #landscape table td{text-align:left;padding:0px 20px 0px 0px;}
 #landscape table td h1{margin:0px; font-size:24px;}
 
+.accordion-item{margin:10px 0px 0px 0px;}
 .custom-accordion {padding-left:0;padding-right:0;}
 .custom-accordion .accordion-item-toggle {padding:0px;height:auto;cursor:pointer;}
 .custom-accordion .accordion-item-toggle:active {/*background: rgba(0,0,0,0.15);*/}

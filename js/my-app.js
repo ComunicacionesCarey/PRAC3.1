@@ -11,8 +11,12 @@ var mainView = myApp.addView('.view-main', {
 });
 
 $$('.alert-text').on('click', function () {
-    myApp.alert('Trinidad Noguera: 5555 6659 78<br />Patsy Fell: 5555 8977');
+    myApp.alert('Trinidad Noguera: 5555 6659 78<br />Patsy Fell: 5555 8977','Emergency Call');
 });
+
+$$('.accordion-item').on('opened', function () {
+  myApp.alert('Accordion item opened');
+}); 
 
 // Generate dynamic page
 var dynamicPageIndex = 0;
