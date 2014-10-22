@@ -10,6 +10,10 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: true
 });
 
+$$('.alert-text').on('click', function () {
+    myApp.alert('Trinidad Noguera: 5555 6659 78<br />Patsy Fell: 5555 8977');
+});
+
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
