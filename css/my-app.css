@@ -44,7 +44,7 @@
 .cumbres-hotel{background-color:#d6a97a;}
 .landscape{background-color:#b7dedb;}
 
-#san-pedro h2{display:inline;margin:0px 5px 0px 0px;}
+#san-pedro strong{ font-size:16px;margin:0px 5px 0px 0px;}
 #cumbres-hotel table{margin:0px 0px 18px 28px;}
 #cumbres-hotel table td{text-align:left;padding:0px 35px 0px 0px;}
 #landscape table td{text-align:left;padding:0px 20px 0px 0px;}
