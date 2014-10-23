@@ -11,11 +11,11 @@ var mainView = myApp.addView('.view-main', {
 });
 
 $$('.alert-text').on('click', function () {
-    myApp.alert('Trinidad Noguera: 5555 6659 78<br />Patsy Fell: 5555 8977','Emergency Call');
+    myApp.alert('Patsy Fell: +56 9 9489 1160<br>Trinidad Noguera: +56 9 8558 5560<br>Hotel Cumbres: +56 55 285 2136','Emergencies');
 });
 
 $$('.accordion-item').on('opened', function () {
-  myApp.alert('Accordion item opened');
+	myApp.alert('Accordion item opened');
 }); 
 
 // Generate dynamic page
@@ -46,13 +46,3 @@ function createContentPage() {
     );
 	return;
 }
-
-	/*=== Popup Dark ===*/
-	var myPhotoBrowserPopupDark = myApp.photoBrowser({
-		photos : ['img/mapa-spa-cumbres.png'],
-		theme: 'dark',
-		type: 'popup'
-	});
-	$$('.pb-popup-dark').on('click', function () {
-		myPhotoBrowserPopupDark.open();
-	});
