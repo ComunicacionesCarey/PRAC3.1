@@ -11,7 +11,6 @@
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
 
-
   </head>
   <body class="bgindex">
     <!-- Status bar overlay for fullscreen mode-->
@@ -56,14 +55,14 @@
                   <li><a href="agenda.html" class="item-link btnagenda">&nbsp;</a></li>
                   <li><a href="san-pedro.html" class="item-link btnsanpedro">&nbsp;</a></li>
                   <li><a href="hotel.html" class="item-link btnhotel">&nbsp;</a></li>
-                  <li><a href="weather.html" class="item-link btnweather">&nbsp;</a></li>
                   <li><a href="chile-at-glance.html" class="item-link btnchile">&nbsp;</a></li>
                   <li><a href="delegates-list.html" class="item-link btndelegate">&nbsp;</a></li>
+                  <li><a href="#" class="item-link btnemergency alert-text">&nbsp;</a></li>
                 </ul>
               </div>
 
 			  <div class="footer-home">
-              	<img src="img/footer-home.svg" class="alert-text" >
+              	<img src="img/footer-home.svg" >
               </div>
 
             </div>
@@ -81,35 +80,6 @@
       </div>
     </div>
     
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
-<script src="jquery.simpleWeather.min.js" charset="utf-8"></script>
-<script>
-// Docs at http://simpleweatherjs.com
-$(document).ready(function() {
-  $.simpleWeather({
-    woeid: '2357536', //2357536
-    location: '',
-    unit: 'c',
-    success: function(weather) {
-      html = '<h2>'+weather.temp+'&deg;'+weather.units.temp+'</h2>';
-      html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
-      html += '<li class="currently">'+weather.currently+'</li>';
-      html += '<li>'+weather.alt.temp+'&deg;C</li></ul>';
-      
-      for(var i=0;i<weather.forecast.length;i++) {
-        html += '<p>'+weather.forecast[i].day+': '+weather.forecast[i].high+'</p>';
-      }
-  
-      $("#weather").html(html);
-    },
-    error: function(error) {
-      $("#weather").html('<p>'+error+'</p>');
-    }
-  });
-});
-</script>
-
-
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
