@@ -23,9 +23,10 @@
 .navbar-inner, .toolbar-inner{padding:0 32px;}
 .footer{position:fixed;bottom:0px;}
 
-.tabs{overflow-y:auto;overflow-x:hidden;height:620px;margin-top:15px;}
-#san-pedro,#delegates{overflow-y:auto;overflow-x:hidden;height:666px;}
-#cumbres-hotel{overflow-y:auto;overflow-x:hidden;height:665px;}
+.tabs{overflow-y:auto;overflow-x:hidden;height:537px;margin-top:15px;}
+#san-pedro,#delegates{overflow-y:auto;overflow-x:hidden;height:540px;}
+#cumbres-hotel,#chileataglance{overflow-y:auto;overflow-x:hidden;height:540px;}
+
 #delegates table td {font-size:12px;}
 
 #agenda table,.san-pedro table,.cumbres-hotel table,.landscape table{width:100%;margin:0px 0px 18px 0px;color:#000;}
@@ -38,8 +39,8 @@
 .colorsanpedro{background:#8E95A7;}
 .colorhotel{background:#967B52;}
 .colorwheather{background:#8DB3AE;}
-.colorchileatglance{background:#8D94A6;}
-.colordelegates{background:#74A2B9;}
+.colorchileatglance{background:#8DB3AD;}
+.colordelegates{background:#8D94A6;}
 
 .san-pedro{background-color:#c3c2ce;}
 .cumbres-hotel{background-color:#d6a97a;}
@@ -63,37 +64,13 @@
 .custom-accordion .accordion-item-expanded .icon-plus {display:none;}
 .custom-accordion .accordion-item-content {padding:0px;}
 
-
-
-#weather {
-  width: 425px;
-  margin: 0px auto;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#weather h2 {
-  margin: 0 0 8px;
-  color: #fff;
-  font-size: 150px;
-  font-weight: 300;
-  text-align: center;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
-}
-
-#weather ul {
-  margin: 0;
-  padding: 0;
-}
-
-#weather li {
-  background: #fff;
-  background: rgba(255,255,255,0.90);
-  padding: 20px;
-  display: inline-block;
-  border-radius: 5px;
-}
-
-#weather .currently {
-  margin: 0 20px;
-}
+.custom-accordion{padding-left:0;padding-right:0;}
+.custom-accordion .accordion-item-toggle{padding:0px 15px;height:44px;line-height:44px;font-size:17px;color:#000;border-bottom:1px solid rgba(0,0,0,0.15);cursor:pointer;}
+.custom-accordion .accordion-item-toggle:active{background:rgba(0,0,0,0.15);}
+.custom-accordion .accordion-item-toggle span{display:inline-block;margin-left:15px;}
+.custom-accordion .accordion-item:last-child .accordion-item-toggle{border-bottom:none;}
+.custom-accordion .icon-plus,.custom-accordion .icon-minus{display:inline-block;width:22px;height:22px;border:0px solid #000;border-radius:100%;line-height:15px;text-align:center;font-size: 33px;}
+.custom-accordion .icon-minus{display:none;}
+.custom-accordion .accordion-item-expanded .icon-minus{display:inline-block;}
+.custom-accordion .accordion-item-expanded .icon-plus{display:none;}
+.custom-accordion .accordion-item-content{padding:0px 15px;}
