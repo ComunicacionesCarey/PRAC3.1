@@ -13,15 +13,18 @@
 <gap:platform name="ios" />
 <gap:plugin name="org.apache.cordova.inappbrowser" />
 <preference name="orientation" value="portrait" />
+<preference name="target-device" value="tablet" />
 
 <!-- iPad -->
+<gap:splash src="splash.png" />
+<icon src="icon.png" />
+<icon src="icon-76.png" gap:platform="ios" width="76" height="76" />
+<icon src="icon-762x.png" gap:platform="ios" width="152" height="152" />
+
 <gap:splash src="Default-Portrait.png" gap:platform="ios" width="768" height="1024" />
 <!-- Retina iPad -->
-<gap:splash src="Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
+<gap:splash src="Default-Portrait2x.png" gap:platform="ios" width="1536" height="2048" />
 
-<icon src="icon.png" />
-<!-- iPad -->
-<icon src="icon-76.png" gap:platform="ios" width="76" height="76" />
-<icon src="icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
 
 </widget>
